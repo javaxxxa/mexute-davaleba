@@ -1,0 +1,228 @@
+/*base style */
+.inline-block {
+	display: inline-block;
+}
+.block {
+	display: block;
+
+}
+.float-right {
+	float: right;
+
+}
+.float-left {
+float: left;
+
+}
+.clear {
+	clear: both; 
+}
+.absolute {
+	position: absolute;
+}
+.relative {
+	position: relative;
+}
+/*base style*/
+.section1 {
+	width: 1286px;
+	height: 700px;
+	background-color: #22B573;
+	margin: 10px auto;
+	border: 4px solid green;
+}
+.section1 .matavari-konteineri {
+	width: 1205px;
+	height: 627px;
+	background-color: #29ABE2;
+	margin: 35px 35px;
+	border: 4px solid blue;
+}
+.section1 .konteiner1 {
+	width: 1125px;
+	height: 200px;
+	background-color: #FCEE21;
+	border: 4px solid yellowgreen;
+	margin: 45px 45px 22px 30px;s
+}
+.section1 .list{
+	background-color: #ED1E79;
+	width: 155px;
+	height: 80px;
+	border: 25px solid white;
+	color: #fff;
+	text-align: center;
+	margin: 30px;
+	margin-top: 34px;
+}
+.section1 .lists {
+	text-align: center;
+
+}
+
+
+.section1 .span {
+	background-color: #FCEE21;
+	border: 4px solid yellowgreen;
+	width: 1125px;
+	height: 270px;
+    margin: 35px 45px 40px 30px;
+    text-transform: uppercase;
+    font-size: 51px;
+    color: #fff;
+    text-align: center;
+
+}
+.section2 {
+	width: 1286px;
+	height: 700px;
+	background-color: #22B573;
+	margin: 10px auto;
+	border: 4px solid green;
+}
+.section2 .lists2 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 48px;
+	margin-left: 224px;
+	margin-top: 52px;
+	vertical-align: top;
+}
+.meore-konteineri .plain {
+	width: 200px;
+	height: 150px;
+	vertical-align: top;
+	margin-top: 52px;
+	margin-left: 50px;
+}
+.mesame-konteineri {
+	background-color: #FCEE21;
+	width: 617px;
+	height: 356px;
+	margin-left: 64px;
+	margin-top: 60px;
+}
+.meotxe-konteineri {
+	background-color: #FCEE21;
+	width: 523px;
+	height: 356px;
+	margin-right: 64px;
+	margin-top: 60px;
+}
+.mesame-konteineri .jupo {
+	width: 152px;
+	height: 118px;
+	padding: 24px;
+}
+.mesame-konteineri .mesame-p {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 24px;
+	text-align: justify;
+}
+.meotxe-konteineri .jupo {
+	width: 152px;
+	height: 118px;
+	padding: 24px;
+
+}
+.meotxe-konteineri .meotxe-p {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 24px;
+	text-align: justify;
+}
+.section3 {
+	width: 1286px;
+	height: 700px;
+	background-color: #22B573;
+	margin: 10px auto;
+	border: 4px solid green;
+}
+.section3 .lists3 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 48px;
+	margin-left: 35px;
+	margin-top: 52px;
+	vertical-align: top;
+}
+.meeqvse-konteineri {
+	background-color: #fff;
+	width: 619px;
+	height: 452px;
+	left: -4px;
+	bottom: -4px;
+
+}
+
+.mexute-konteineri .plain2 {
+    width: 1036px;
+    height: 644px;
+   top: 52px;
+   right: -70px;
+}
+
+.meeqvse-konteineri .meeqvse-shvili {
+	background-color: #006837;
+	width: 300px;
+	height: 300px;
+	left: 102px;
+	bottom: 80px;
+	transition: transform .8s linear, background-color .8s linear;
+
+
+}
+.section3 .read {
+	color: #39B54A;
+	bottom: 1px;
+	right: 15px;
+	text-transform: uppercase;
+	transition: .8s linear;
+}
+.section3 .created {
+	color: #FCEE21;
+	bottom: 2px;
+	text-transform: uppercase;
+	bottom: 10px;
+	right: 30px;
+}
+
+.section3 .meeqvse-p {
+	color: #FFFF00;
+	text-transform: uppercase;
+	font-size: 35px;
+	top: 37%;
+	transition: transform .8s linear, color .8s linear;
+	transform: translate(0%, 50%) rotate(45deg);
+}
+/* Hover */
+
+.section3 .meeqvse-konteineri:hover .meeqvse-shvili {
+	background-color: #FFFF00;
+	width: 300px;
+	height: 300px;
+	left: 102px;
+	bottom: 80px;
+	transition: transform .8s linear, background-color .8s linear;
+
+
+}
+.section3 .meeqvse-konteineri:hover .meeqvse-p {
+	color: #C1272D;
+	text-transform: uppercase;
+	font-size: 35px;
+	top: 37%;
+	transition: transform .8s linear, color .8s linear;
+	transform: translate(0%, 50%) rotate(0deg);
+
+}
+.section3 .meeqvse-konteineri:hover .read {
+	color: #ED1C24;
+	bottom: 1px;
+	right: 60px;
+	transition: .8s linear;
+}
+
+
+
