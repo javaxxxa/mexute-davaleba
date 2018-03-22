@@ -1,2 +1,0 @@
-# mexute-davaleba
-მეხუთე დავალება
